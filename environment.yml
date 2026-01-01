@@ -1,0 +1,12 @@
+name: mapf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=1.21.0
+  - matplotlib>=3.5.0
+  - pip
+  - pip:
+    - imageio>=2.9.0
+
