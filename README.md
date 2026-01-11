@@ -2,6 +2,30 @@
 
 A minimal, grid-based Multi-Agent Path Finding (MAPF) environment built on MovingAI benchmark maps. This package provides tools for loading maps, sampling instances, validating paths, and visualizing multi-agent trajectories.
 
+## Visualization Examples
+
+Here are example visualizations of multi-agent path finding on different maps with 50 agents using random movement:
+
+### Warehouse Map
+![Warehouse Map Demo](results/warehouse-20-40-10-2-2_demo.gif)
+*50 agents moving randomly on warehouse-20-40-10-2-2 map*
+
+### Room Map
+![Room Map Demo](results/room-64-64-8_demo.gif)
+*50 agents moving randomly on room-64-64-8 map*
+
+### Random Map
+![Random Map Demo](results/random-64-64-10_demo.gif)
+*50 agents moving randomly on random-64-64-10 map*
+
+### Maze Map
+![Maze Map Demo](results/maze-128-128-2_demo.gif)
+*50 agents moving randomly on maze-128-128-2 map*
+
+### Mansion Map
+![Mansion Map Demo](results/ht_mansion_n_demo.gif)
+*50 agents moving randomly on ht_mansion_n map*
+
 ## Features
 
 - **Grid-based MAPF Environment**: Discrete-time, grid-based environment for multi-agent path finding
@@ -418,30 +442,6 @@ PYTHONPATH=. python scripts/run_mapf_demos.py \
     --fps 5 \
     --results_dir results
 ```
-
-## Visualization Examples
-
-Here are example visualizations of multi-agent path finding on different maps:
-
-### Warehouse Map
-![Warehouse Map Demo](results/warehouse-20-40-10-2-2_demo.gif)
-*50 agents moving randomly on warehouse-20-40-10-2-2 map*
-
-### Room Map
-![Room Map Demo](results/room-64-64-8_demo.gif)
-*50 agents moving randomly on room-64-64-8 map*
-
-### Random Map
-![Random Map Demo](results/random-64-64-10_demo.gif)
-*50 agents moving randomly on random-64-64-10 map*
-
-### Maze Map
-![Maze Map Demo](results/maze-128-128-2_demo.gif)
-*50 agents moving randomly on maze-128-128-2 map*
-
-### Mansion Map
-![Mansion Map Demo](results/ht_mansion_n_demo.gif)
-*50 agents moving randomly on ht_mansion_n map*
 
 ## License
 
