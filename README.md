@@ -1,4 +1,5 @@
 # MAPF (Multi-Agent Path Finding) Environment
+16832project
 
 A minimal, grid-based Multi-Agent Path Finding (MAPF) environment built on MovingAI benchmark maps. This package provides tools for loading maps, sampling instances, validating paths, and visualizing multi-agent trajectories.
 
